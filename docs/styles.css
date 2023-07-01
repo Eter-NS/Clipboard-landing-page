@@ -95,7 +95,7 @@ svg {
   text-align: center;
 }
 .CTA-container {
-  margin-block: 2rem 1rem;
+  margin-block: 3rem 2rem;
   gap: 1.25rem;
 }
 .CTA {
@@ -145,7 +145,14 @@ svg {
 .features-2,
 .cards,
 .partners__link-container {
-  gap: 2.5rem;
+  gap: 4rem;
+}
+.card__image,
+.note__header,
+.features-2__header,
+.reminder__header,
+.hero__header {
+  margin-bottom: 0.5rem;
 }
 
 /* Custom sections styles */
@@ -160,11 +167,6 @@ svg {
   width: 100%;
   z-index: -1;
 }
-.note__header,
-.features-2__header,
-.card__image {
-  margin-bottom: 0.5rem;
-}
 .hero__image {
   place-self: center;
   margin-bottom: 1.5rem;
@@ -172,17 +174,14 @@ svg {
 .hero__image img {
   width: 85%;
 }
-.hero__header {
-  margin-bottom: 0.5rem;
-}
 .hero__paragraph {
   line-break: strict;
 }
 .snippets__image {
-  margin: 2rem 0;
+  margin: 3rem 0;
 }
 .access__image {
-  margin-top: 2.5rem;
+  margin-top: 3rem;
 }
 .notes {
   display: grid;
@@ -194,8 +193,11 @@ svg {
 .features-2 {
   margin-top: var(--margin-between-sections);
 }
+.cards {
+  column-gap: 2rem;
+}
 .card {
-  flex: 0 1 min(100%, 375px);
+  flex: 0 1 min(100%, 275px);
 }
 .card > * {
   margin-top: 0.5rem;
@@ -246,11 +248,7 @@ svg {
   }
   .container,
   .snippets {
-    width: 90%;
-  }
-  .snippets {
-    margin-left: 0;
-    margin-right: auto;
+    width: 100%;
   }
   .snippets__image {
     width: 50%;
@@ -258,7 +256,7 @@ svg {
     transform: translateX(-5%);
   }
   .access__image {
-    width: 80%;
+    width: 90%;
     margin-left: auto;
     margin-right: auto;
   }
