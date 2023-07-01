@@ -249,11 +249,11 @@ svg {
   .h3 {
     font-size: 1.5rem;
   }
-  .container {
+  .container,
+  .snippets {
     width: 90%;
   }
   .snippets {
-    width: 90%;
     margin-left: 0;
     margin-right: auto;
   }
